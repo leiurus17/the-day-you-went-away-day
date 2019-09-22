@@ -4,17 +4,17 @@ import java.time.LocalDate;
 public class Main {
 
     public static void main(String[] args) {
-        findDayYouWentAwayDays();
+        findTheDayYouWentAwayDays();
     }
 
-    private static void findDayYouWentAwayDays() {
+    private static void findTheDayYouWentAwayDays() {
 
-        for (int x = 1970; x <= 2100; x++) {
+        for (int x = 1970; x <= 2100; x++) { // adjust to your preference
 
-            LocalDate septemberTwentySecondSunday = LocalDate.of(x, 9, 22);
+            LocalDate septemberTwentySecond = LocalDate.of(x, 9, 22);
 
-            if (septemberTwentySecondSunday.getDayOfWeek().equals(DayOfWeek.SUNDAY)) {
-                System.out.println("Year " + x + " has a Day You Went Away day!");
+            if (septemberTwentySecond.getDayOfWeek().equals(DayOfWeek.SUNDAY)) {
+                System.out.println("Year " + x + " has a The Day You Went Away day!");
             }
         }
     }
