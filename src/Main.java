@@ -4,10 +4,10 @@ import java.time.LocalDate;
 public class Main {
 
     public static void main(String[] args) {
-        findTheDayYouWentAwayDays();
+        findTheDayYouWentAwayYears();
     }
 
-    private static void findTheDayYouWentAwayDays() {
+    private static void findTheDayYouWentAwayYears() {
 
         for (int x = 1970; x <= 2100; x++) { // adjust to your preference
 
