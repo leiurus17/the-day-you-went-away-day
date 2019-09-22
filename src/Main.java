@@ -14,7 +14,7 @@ public class Main {
             LocalDate septemberTwentySecondSunday = LocalDate.of(x, 9, 22);
 
             if (septemberTwentySecondSunday.getDayOfWeek().equals(DayOfWeek.SUNDAY)) {
-                System.out.println("Year: " + x + " has a Day You Went Away day!");
+                System.out.println("Year " + x + " has a Day You Went Away day!");
             }
         }
     }
